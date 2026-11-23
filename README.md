@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #KasirKopiKenangan
 === PENGUMPULAN PROGRESS 1 — UAS PEMROGRAMAN DASAR ===
 Kelas / Kelompok   : T1[D] / Kelompok-[01]
@@ -14,3 +15,6 @@ Ringkasan Capaian Progress 1:
 - README.md awal berisi daftar anggota, akun GitHub, dan tabel pembagian tugas.
 - Proposal & analisis awal (Bagian A) telah diunggah pada docs/ atau README.md.
 - Draft laporan (Sampul, 1.1, 1.2 awal, rencana 3.2) tersimpan di docs/ pada branch main.
+=======
+# PROJECT-UAS
+>>>>>>> 765e7695973ed9548568f916d0f7f15b36e6b172
