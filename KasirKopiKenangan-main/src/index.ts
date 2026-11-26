@@ -1,3 +1,3 @@
 console.log("Hello console");
 
-console.log("sapta");
+console.log("sapta,retta,faris");
