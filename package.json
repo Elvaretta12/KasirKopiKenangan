@@ -3,7 +3,7 @@
     "@types/node": "^26.6.11",
     "ts-node": "^10.9.2",
     "type": "^2.7.3",
-    "typescript": "^5.7.3"
+    "typescript": "^5.9.3"
   },
   "name": "project.uts",
   "version": "1.0.0",

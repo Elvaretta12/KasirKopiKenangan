@@ -1,24 +1,17 @@
-# Project-UAS
-# Aplikasi Kasir Kopi Kenangan
+# KasirKopiKenangan
 
-Proses pemesanan dan pencatatan transaksi kasir di kedai Kopi Kenangan secara manual memerlukan waktu dan rawan terjadi kesalahan perhitungan total harga, komputasi diskon/promo, serta perhitungan kembalian. Oleh karena itu, diperlukan sebuah aplikasi kasir berbasis terminal/program (TypeScript) yang dapat mengotomatisasi daftar menu, proses pemilihan item dan jumlah pesanan, perhitungan diskon/pajak, hingga cetak struk transaksi secara akurat dan cepat.
-**Mata Kuliah:** Pemrograman Dasar
-**Kelas / Kelompok:** T1D / Kelompok 2
-**Dosen Pengampu:** Salnan Ratih Asriningtias, ST., MT.
+## Identitas Kelompok
 
-## Anggota Tim
+| No | Nama | NIM | Username GitHub |
+|----|------|-----|-----------------|
+| 1 | Muhamad Rasya Aprillah Al Farisi | 263140701111047 | rasyaalfarisi25 |
+| 2 | Sapta Ayu Mardani | 263140701111056 | Saptaayu |
+| 3 | Elvaretta Dwi Aristawati | 263140701111052 | Elvaretta12 |
 
-| No | Nama | NIM | Akun GitHub |
-|----|------|-----|-------------|
-| 1 | Muhamad Rasya Aprillah Al Farisi  | 263140701111047 | [@rasyaalfarisi25](https://github.com/rasyaalfarisi25) |
-| 2 | Elvaretta Dwi Aristawati | 263140701111052 | [@Elvaretta12](https://github.com/Elvaretta12) |
-| 3 | Sapta Ayu Mardani| 263140701111056 | [@Saptaayu](https://github.com/Saptaayu) |
+## Pembagian Tugas
 
-## Pembagian Tugas dan Kontribusi
-
-| Nama | Akun GitHub | Fitur / Bagian Kode yang Dikerjakan | Link Pull Request Utama |
-|------|-------------|--------------------------------------|--------------------------|
-| Muhamad Rasya Aprillah Al Farisi | @rasyaalfarisi25| Rencana: fitur Read(semua dan detail by ID), fitur Update,laporan Bab I. | (menyusul) |
-| Elvaretta Dwi Aristawati | @Elvaretta12 | Rencana: setup repository, struktur data dan data awal (seed), menu utama (loop), fitur Create dan validasi input, flowchart. | (menyusul) |
-|Sapta Ayu Mardani| @Saptaayu | Rencana: fitur Delete, fitur Search, integrasi operator dan seleksi kondisi, README. | (menyusul) |
-
+| No | Nama Anggota | Pembagian Tugas |
+|----|---------|-----------------|
+| 1 | Muhamad Rasya Aprillah Al Farisi | Mengelola repository dan menggabungkan Pull Request |
+| 2 | Sapta Ayu Mardani | Bikin branch baru (`git checkout -b feature/setup-readme`), isi file README.md (judul project, daftar nama + NIM + username GitHub anggota, dan tabel pembagian tugas), lalu push dan buat Pull request ke branch develop. |
+| 3 | Elvaretta Dwi Aristawati | Bikin branch baru (`git checkout -b feature/draft-laporan`), simpan file laporan `.docx` ke folder `docs/` yang sudah diisi Halaman Sampul, Bab 1.1 Deskripsi Masalah, Bab 3.2, lalu push dan buat Pull Request ke branch develop. |
