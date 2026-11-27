@@ -293,6 +293,32 @@ function hitungRincianTransaksi(
 }
 
 // ----------------------------------------------------------------------
+// FUNGSI VALIDASI & EVALUASI TRANSAKSI - JOBDESK: SAPTA (PROGRESS 2)
+// ----------------------------------------------------------------------
+// Fungsi bertipe (parameter & return boolean) untuk mengecek kelayakan promo & validasi nilai transaksi
+function cekValidasiDanPromo(
+  jumlah: number,
+  totalBayar: number,
+  isMember: boolean,
+  metodeBayar: number
+): boolean {
+  // Variabel sementara untuk simulasi perhitungan poin/nilai dengan compound operator
+  let poinReward: number = jumlah;
+  poinReward *= 10; // compound *= (setiap 1 item mendapat 10 poin dasar)
+
+  // Seleksi kondisi majemuk (operator logika && dan perbandingan > / >=)
+  if (isMember && totalBayar >= 50000 && metodeBayar !== 1) {
+    poinReward /= 2; // compound /= (penyesuaian rasio poin khusus transaksi non-tunai)
+    return poinReward > 0;
+  } else if (!isMember && jumlah <= 0) {
+    // Operator logika ! (negasi) dan perbandingan <=
+    return false;
+  }
+
+  return totalBayar > 0;
+}
+
+// ----------------------------------------------------------------------
 // BAGIAN FITUR CRUD & SEARCH (KERANGKA PROGRESS 2)
 // ----------------------------------------------------------------------
 
